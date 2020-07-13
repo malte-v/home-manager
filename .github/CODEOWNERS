@@ -176,7 +176,7 @@
 
 /modules/services/unison.nix                          @pacien
 
-/modlues/services/window-managers/i3-sway/sway.nix    @alexarice
+/modules/services/window-managers/i3-sway/sway.nix    @alexarice
 
 /modules/services/xcape.nix                           @nickhu
 
