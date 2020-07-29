@@ -35,4 +35,14 @@
       fingerprint = "5F09 212B 063A E019 946D  D00F F129 9E0B 6ED2 B95B";
     }];
   };
+  berbiche = {
+    name = "Nicolas Berbiche";
+    email = "berbiche@users.noreply.github.com";
+    github = "berbiche";
+    githubId = 20448408;
+    keys = [{
+      longkeyid = "rsa4096/0xB461292445C6E696";
+      fingerprint = "D446 E58D 87A0 31C7 EC15  88D7 B461 2924 45C6 E696";
+    }];
+  };
 }
