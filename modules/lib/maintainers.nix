@@ -45,4 +45,10 @@
       fingerprint = "D446 E58D 87A0 31C7 EC15  88D7 B461 2924 45C6 E696";
     }];
   };
+  olmokramer = {
+    name = "Olmo Kramer";
+    email = "olmokramer@users.noreply.github.com";
+    github = "olmokramer";
+    githubId = 3612514;
+  };
 }
