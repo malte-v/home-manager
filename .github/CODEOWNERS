@@ -60,6 +60,9 @@
 
 /modules/programs/firefox.nix                         @rycee
 
+/modules/programs/gh.nix                              @Gerschtli
+/tests/modules/programs/gh                            @Gerschtli
+
 /modules/programs/git.nix                             @rycee
 
 /modules/programs/gnome-terminal.nix                  @rycee
