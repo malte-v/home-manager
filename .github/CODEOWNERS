@@ -140,6 +140,8 @@
 
 /modules/programs/zsh/prezto.nix                      @NickHu
 
+/modules/services/caffeine.nix                        @uvNikita
+
 /modules/services/cbatticon.nix                       @pmiddend
 
 /modules/services/clipmenu.nix                        @DamienCassou
