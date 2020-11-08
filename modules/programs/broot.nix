@@ -18,8 +18,7 @@ let
     '';
 
   brootConf = {
-    verbs =
-      mapAttrsToList (name: value: value // { invocation = name; }) cfg.verbs;
+    verbs = cfg.verbs;
     skin = cfg.skin;
   };
 
@@ -77,8 +76,7 @@ in {
         }
       '';
       description = ''
-        Define new verbs. The attribute name indicates how the verb is
-        called by the user, with placeholders for arguments.
+        Define new verbs. For more information, see https://dystroy.org/broot/documentation/configuration/#verb-definition-attributes
         </para><para>
         The possible attributes are:
         </para>
@@ -86,8 +84,16 @@ in {
         <para>
         <variablelist>
           <varlistentry>
+            <term><literal>invocation</literal> (optional)</term>
+            <listitem><para>how the verb is called by the user, with placeholders for arguments</para></listitem>
+          </varlistentry>
+          <varlistentry>
             <term><literal>execution</literal> (mandatory)</term>
             <listitem><para>how the verb is executed</para></listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><literal>key</literal> (optional)</term>
+            <listitem><para>a keyboard key triggerring execution</para></listitem>
           </varlistentry>
           <varlistentry>
             <term><literal>shortcut</literal> (optional)</term>
