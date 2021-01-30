@@ -51,6 +51,12 @@
     github = "olmokramer";
     githubId = 3612514;
   };
+  kubukoz = {
+    name = "Jakub Kozłowski";
+    email = "kubukoz@users.noreply.github.com";
+    github = "kubukoz";
+    githubId = 894884;
+  };
   matrss = {
     name = "Matthias Riße";
     email = "matrss@users.noreply.github.com";
